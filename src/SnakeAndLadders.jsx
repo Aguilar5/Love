@@ -182,7 +182,7 @@ export default function SnakeAndLadders() {
           🎲 Somos Algo
         </Typography>
         <Typography variant="h6" color="text.secondary" gutterBottom>
-          Turno actual: <strong>{turn === "pizza" ? "Crys 🍕" : "Yahel 💻"}</strong>
+          Turno actual: <strong>{turn === "pizza" ? "Crys 🍕" : "Laptop 💻"}</strong>
         </Typography>
         <Button onClick={() => setConnectionDialog(true)} variant="contained" color="primary" sx={{ mb: 1 }}>➕ Añadir Escalera o Serpiente</Button>
         <Button onClick={() => setDeleteDialogOpen(true)} variant="contained" color="error" sx={{ mb: 2 }}>🗑️ Eliminar Escalera o Serpiente</Button>
